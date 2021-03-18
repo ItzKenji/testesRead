@@ -1,14 +1,11 @@
-<p align="center" id="introducao">
-   <img src="./public/logo-full.svg" alt="Move It" width="300"/>
-</p>
+<h1 align="center" id="introducao"> <strong>Calculate NPS</strong> </h1>
 
 <p align="center">
  <a href="#introducao">Introdução</a> •
  <a href="#projeto">Projeto</a> •
- <a href="#tecnologias">Tecnologias Utilizadas</a> • 
- <a href="#execucao">Como Executar</a> • 
+ <a href="#tecnologias">Tecnologias Utilizadas</a> •
  <a href="#documentacao">Documentação</a> • 
- <a href="#construcao">Em Construção</a> •
+ <a href="#execucao">Como Executar</a> • 
  <a href="#licenca">Licença</a> •
  <a href="#autor">Autor</a> •
  <a href="#contato">Contato</a> 
@@ -26,7 +23,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<p align="justify"> Esse projeto se baseia na técnica de pomodoro, onde a técnica consiste na utilização de um cronometro para dividir o tempo em períodos de 25 minutos de produção, que são separados por breves intervalos, mas o que difere esta aplicação sobre a técnica original, é que trocamos os intervalos e no lugar substituímos por desafios aleatórias que beneficiam a saúde do usuário. </p>
+<p align="justify"> O Calculate NPS é uma aplicação que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS. </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
@@ -36,10 +33,22 @@
     <li> <a href="https://nodejs.org/en/">NodeJS</a> </li>
     <li> <a href="https://expressjs.com/pt-br/">Express</a> </li>
     <li> <a href="https://typeorm.io/#/">TypeORM</a> </li>
+    <li> <a href="https://www.npmjs.com/package/reflect-metadata">Reflect-metadata</a> </li>
+    <li> <a href="https://www.npmjs.com/package/sqlite3">SQLite3</a> </li>
+    <li> <a href="https://www.npmjs.com/package/uuid">uuid</a> </li>
     <li> <a href="https://jestjs.io/">Jest</a> </li>
     <li> <a href="https://ethereal.email/">Ethereal-Email</a> </li>
+    <li> <a href="https://nodemailer.com/about/">Nodemailer</a> </li>
     <li> <a href="https://www.beekeeperstudio.io/">SQL Editor Beekeeper Studio</a> </li>
+    <li> <a href="https://handlebarsjs.com/">Handlebars</a> </li>
+    <li> <a href="https://www.npmjs.com/package/express-async-errors">ExpressJS Async Errors</a> </li>
 </ul>
+Ferramentas utilziadas para os Testes Automatizados:
+<ul>
+    <li> <a href="https://jestjs.io/">Jest</a> </li>
+    <li> <a href="https://www.npmjs.com/package/supertest">SuperTest</a> </li>
+</ul>
+
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
 
@@ -50,7 +59,7 @@
 
 <br>
 
-<p align="justify"> </p>
+<p align="justify"> Em Construção... </p>
 
 <p align="justify"> </p>
 
@@ -78,7 +87,7 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.5-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable) [![NPM Badge](https://img.shields.io/badge/npm-6.14.11-brightgreen)](https://nodejs.org/en/download/)
+[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.5-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ```bash
 # Fazer o clone do Repositorio.
@@ -86,8 +95,6 @@
 ```
 
 ```bash
-# Para colocar a aplicação em pratica, siga os passos a seguir:
-
 # Instalar as dependencias com yarn: 
 >> yarn install
 
@@ -98,30 +105,35 @@
 >> yarn dev 
 ```
 
-<pre># Crie os Users:
+<pre><details>
+<summary>Utilizando a API Insomnia...</summary>
+
+
+
+<pre># Crie um <strong>New Folder chamado "Users"</strong> -> Dentro dele crie um <strong>New Request chamado "Create"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
 <details>
 <summary>Users</summary>
-# Utilizando a rota: <code>[http://localhost:3333/users]</code>
+# Utilizando a rota: <code>[http://localhost:3333/users]</code> insira sobre o Body:
 <code>{
    "name": "Nome Exemplo",
    "email": "exemplo@exemplo.com.br"
 }</code>
 </details></pre>
 
-<pre># Crie os Surveys:
+<pre># Crie um <strong>New Folder chamado "Surveys"</strong> -> Dentro dele crie um <strong>New Request chamado "Create"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
 <details>
 <summary>Surveys</summary>
-# Utilizando a rota: <code>[http://localhost:3333/surveys]</code>
+# Utilizando a rota: <code>[http://localhost:3333/surveys]</code> insira sobre o Body:
 <code>{
    "title": "Queremos ouvir sua opinião!",
    "description": "De 0  a 10, quanto você recomendaria a Rocketseat?"
 }</code>
 </details></pre>
 
-<pre># Crie o SendMail:
+<pre># Crie um <strong>New Folder chamado "SendMail"</strong> -> Dentro dele crie um <strong>New Request chamado "Send"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
 <details>
 <summary>SendMail</summary>
-# Utilizando a rota: <code>[http://localhost:3333/sendMail]</code>
+# Utilizando a rota: <code>[http://localhost:3333/sendMail]</code> insira sobre o Body:
 <code>{
    "email": "exemplo@exemplo.com.br",
    "survey_id": "ID Survey"
@@ -131,12 +143,15 @@
 <pre># GET NPS:
 <details>
 <summary>NPS</summary>
-# Utilizando a URL: <code>[http://localhost:3333/nps/IdSurveyQueQuer]</code> -> Abra uma requisição GET e visualize o Resultado do NPS
+# Crie um <strong>New Folder chamado "NPS"</strong> -> Dentro dele crie um <strong>New Request chamado "CalculateNps"</strong> utilizando o <strong>método GET</strong>:
+# Utilizando a <strong>URL: <code>[http://localhost:3333/nps/IdSurveyQueQuer]</code></strong> -> <strong>Faça um Send</strong> sobre o Request e <strong>verifique as informações buscadas</strong>.
 </details></pre>
 
 <pre>
 # Visualize os dados e as tabelas utilziando o Beekeeper! 
 </pre>
+</details></pre>
+
 
 ## :closed_book: <strong id="licenca"> Licença </strong>
 
