@@ -106,10 +106,7 @@
 >> yarn dev 
 ```
 
-<pre><details>
-<summary>Utilizando a API Insomnia...</summary>
-
-
+<p align="justify"> Utilizando API Insomnia: </p>
 
 <pre># Crie um <strong>New Folder chamado "Users"</strong> -> Dentro dele crie um <strong>New Request chamado "Create"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
 <details>
@@ -151,7 +148,6 @@
 <pre>
 # Visualize os dados e as tabelas utilziando o Beekeeper! 
 </pre>
-</details></pre>
 
 
 ## :closed_book: <strong id="licenca"> Licença </strong>
