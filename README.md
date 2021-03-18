@@ -33,13 +33,13 @@
     <li> <a href="https://nodejs.org/en/">NodeJS</a> </li>
     <li> <a href="https://expressjs.com/pt-br/">Express</a> </li>
     <li> <a href="https://typeorm.io/#/">TypeORM</a> </li>
-    <li> <a href="https://www.npmjs.com/package/reflect-metadata">Reflect-metadata</a> </li>
     <li> <a href="https://www.npmjs.com/package/sqlite3">SQLite3</a> </li>
     <li> <a href="https://www.npmjs.com/package/uuid">uuid</a> </li>
     <li> <a href="https://insomnia.rest/">Insomnia</a> </li>
     <li> <a href="https://www.beekeeperstudio.io/">SQL Editor Beekeeper Studio</a> </li>
     <li> <a href="https://ethereal.email/">Ethereal-Email</a> </li>
     <li> <a href="https://nodemailer.com/about/">Nodemailer</a> </li>
+    <li> <a href="https://www.npmjs.com/package/reflect-metadata">Reflect-metadata</a> </li>
     <li> <a href="https://handlebarsjs.com/">Handlebars</a> </li>
     <li> <a href="https://www.npmjs.com/package/express-async-errors">ExpressJS Async Errors</a> </li>
 </ul>
