@@ -23,7 +23,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<p align="justify"> O Calculate NPS é uma aplicação que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS. </p>
+<p align="justify"> O Calculate NPS é uma aplicação Back-end que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS. </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
@@ -36,14 +36,15 @@
     <li> <a href="https://www.npmjs.com/package/reflect-metadata">Reflect-metadata</a> </li>
     <li> <a href="https://www.npmjs.com/package/sqlite3">SQLite3</a> </li>
     <li> <a href="https://www.npmjs.com/package/uuid">uuid</a> </li>
-    <li> <a href="https://jestjs.io/">Jest</a> </li>
+    <li> <a href="https://insomnia.rest/">Insomnia</a> </li>
+    <li> <a href="https://www.beekeeperstudio.io/">SQL Editor Beekeeper Studio</a> </li>
     <li> <a href="https://ethereal.email/">Ethereal-Email</a> </li>
     <li> <a href="https://nodemailer.com/about/">Nodemailer</a> </li>
-    <li> <a href="https://www.beekeeperstudio.io/">SQL Editor Beekeeper Studio</a> </li>
     <li> <a href="https://handlebarsjs.com/">Handlebars</a> </li>
     <li> <a href="https://www.npmjs.com/package/express-async-errors">ExpressJS Async Errors</a> </li>
 </ul>
-Ferramentas utilziadas para os Testes Automatizados:
+<p align="justify">Ferramentas utilziadas para os Testes Automatizados: </p>
+
 <ul>
     <li> <a href="https://jestjs.io/">Jest</a> </li>
     <li> <a href="https://www.npmjs.com/package/supertest">SuperTest</a> </li>
