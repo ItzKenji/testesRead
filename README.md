@@ -24,6 +24,8 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
+![Video EscolaTomorowland](https://giphy.com/gifs/yFhwYFsIbU59zXiIFD/html5)
+
 <p align="justify">  </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
