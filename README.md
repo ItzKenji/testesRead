@@ -1,5 +1,5 @@
 <p align="center" id="introducao">
-   <img src="./public/logo-full.svg" alt="Move It" width="300"/>
+   <img src="./img/7c99082bc84394e5bc9a1e25909cc5ff.png" alt="Escola Tomorrowland" width="115"/>
 </p>
 
 <p align="center">
@@ -8,7 +8,6 @@
  <a href="#tecnologias">Tecnologias Utilizadas</a> • 
  <a href="#execucao">Como Executar</a> • 
  <a href="#documentacao">Documentação</a> • 
- <a href="#construcao">Em Construção</a> •
  <a href="#licenca">Licença</a> •
  <a href="#autor">Autor</a> •
  <a href="#contato">Contato</a> 
@@ -24,12 +23,16 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-* Escola Tomorrowland
+* Escola Tomorrowland:
 <h1 align="center">  
 <a href="https://youtu.be/tvA_nazsyR8"><img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="800" height="auto"/></a>
 </h1>
 
-<p align="justify">  </p>
+* Descrição:
+  
+<p align="justify"> A Escola Tomorrowland foi umas das primeiras aplicações que desenvolvi no período de Desenvolvimento Web na faculdade, onde fizemos a utilização do conceito de SPA (Single Page Aplicativo), utilizamos também as linguagens HTML5 e CSS e o framework Boostrap, para deixarmos a pagina mais responsiva a proporções diferentes de tela. </p>
+
+<p align="justify"> Essa aplicação consistia em desenvolver um site escolar, contendo cinco temas diferentes de cursos. Todos os textos descritos foram produzidos através de livros escolares antigos que eu continha. </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
@@ -45,9 +48,22 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
+<p align="justify"> Para executar a aplicação, siga os seguintes passos: </p>
+
+* Utilizando o Visual Studio Code, baixe a extensão "Live Server" para visualiuzar e fazer alterações em tempo real na pagina da aplicação. 
+
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="700" height="auto"/>
 </h1>
+
+```bash
+# 2 Formas rapidas de acessar a pagina da aplicação:
+
+>> Iniciando o Live Server clicando em "Go Live" (Igual demonstrado na IMG).
+
+>> Ou utilizando dentro do direorio da aplicação no VSCode o atalho # Alt+L + Alt+O
+
+```
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
 
