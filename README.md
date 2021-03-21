@@ -1,5 +1,5 @@
 <p align="center" id="introducao">
-   <img src="./img/7c99082bc84394e5bc9a1e25909cc5ff.png" alt="Escola Tomorrowland" width="115"/>
+   <img src="./img/7c99082bc84394e5bc9a1e25909cc5ff.png" alt="Escola Tomorrowland" width="145"/>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 * Descrição:
   
-<p align="justify"> A Escola Tomorrowland foi umas das primeiras aplicações que desenvolvi no período de Desenvolvimento Web na faculdade, onde fizemos a utilização do conceito de SPA (Single Page Aplicativo), utilizamos também as linguagens HTML5 e CSS e o framework Boostrap, para deixarmos a pagina mais responsiva a proporções diferentes de tela. </p>
+<p align="justify"> A Escola Tomorrowland foi umas das primeiras aplicações que desenvolvi no período de Desenvolvimento Web na faculdade, onde foi aplicado a utilização do conceito de SPA (Single Page Aplicativo), utilizamos também as linguagens HTML5 e CSS e o framework Boostrap, para deixarmos a pagina mais responsiva a proporções diferentes de tela. </p>
 
 <p align="justify"> Essa aplicação consistia em desenvolver um site escolar, contendo cinco temas diferentes de cursos. Todos os textos descritos foram produzidos através de livros escolares antigos que eu continha. </p>
 
@@ -38,11 +38,11 @@
 
 <p align="justify"> Este projeto foi desenvolvido utilizando as seguintes linguagens: </p>
 
-<img align="left" alt="Bootstrap" width="36px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"/>
-
 <img align="left" alt="HTML5" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/>
 
 <img align="left" alt="CSS3" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/>
+
+<img align="left" alt="Bootstrap" width="36px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"/>
 
 </br>
 
@@ -50,19 +50,18 @@
 
 <p align="justify"> Para executar a aplicação, siga os seguintes passos: </p>
 
-* Utilizando o Visual Studio Code, baixe a extensão "Live Server" para visualiuzar e fazer alterações em tempo real na pagina da aplicação. 
+* Utilizando o Visual Studio Code, instale a extensão "Live Server" para visualiuzar e fazer alterações em tempo real na pagina da aplicação. 
 
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="700" height="auto"/>
 </h1>
 
 ```bash
-# 2 Formas rapidas de acessar a pagina da aplicação:
+# Formas rapidas de acessar a pagina da aplicação:
 
 >> Iniciando o Live Server clicando em "Go Live" (Igual demonstrado na IMG).
 
->> Ou utilizando dentro do direorio da aplicação no VSCode o atalho # Alt+L + Alt+O
-
+>> Ou utilizando dentro do diretorio da aplicação no VSCode, o atalho # Alt+L + Alt+O
 ```
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
@@ -76,10 +75,8 @@
 
 <p align="justify"> </p>
 
-
-
 ```bash
-#Caso queira fazer o deploy desta aplicação utilizando o Vercel!
+# BONUS: Caso queira fazer o deploy desta aplicação utilizando o Vercel!
 
 # Crie uma conta no site da Vercel:
 >> https://vercel.com/
@@ -96,9 +93,7 @@
 # Preparando o deploy da aplicação (Responda os passos apresentados):
 >> vercel
 ```
-
 </details>
-
 
 ## :closed_book: <strong id="licenca"> Licença </strong>
 
