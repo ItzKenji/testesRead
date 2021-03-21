@@ -45,7 +45,7 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-<h1 align="left">
+<h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="700" height="auto"/>
 </h1>
 
