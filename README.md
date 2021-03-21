@@ -25,8 +25,8 @@
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
 * Escola Tomorrowland
-
-![SignUp Mobile](https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif)
+  
+<img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif"/>
 
 <p align="justify">  </p>
 
@@ -45,7 +45,7 @@
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
 <h1 align="left">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/tutotial.png" width="430" height="430"/>
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="430" height="430"/>
 </h1>
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
