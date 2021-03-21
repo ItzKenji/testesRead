@@ -24,7 +24,9 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-![Video EscolaTomorowland](https://gph.is/g/ZWPw9vJ)
+* Escola Tomorrowland
+
+![SignUp Mobile](https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif)
 
 <p align="justify">  </p>
 
@@ -42,7 +44,9 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-[![](http://img.youtube.com/vi/tvA_nazsyR8/0.jpg)](http://www.youtube.com/watch?v=tvA_nazsyR8 "Escola Tomorroland")
+<h1 align="left">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/tutotial.png" width="430" height="430"/>
+</h1>
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
 
