@@ -25,8 +25,9 @@
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
 * Escola Tomorrowland
-  
-<a href="https://youtu.be/tvA_nazsyR8"><img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="auto" height="auto"/></a>
+<h1 align="center">  
+<a href="https://youtu.be/tvA_nazsyR8"><img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="800" height="auto"/></a>
+</h1>
 
 <p align="justify">  </p>
 
