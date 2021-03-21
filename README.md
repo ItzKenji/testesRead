@@ -1,11 +1,14 @@
-<h1 align="center" id="introducao"> <strong>Calculate NPS</strong> </h1>
+<p align="center" id="introducao">
+   <img src="./public/logo-full.svg" alt="Move It" width="300"/>
+</p>
 
 <p align="center">
  <a href="#introducao">Introdução</a> •
  <a href="#projeto">Projeto</a> •
- <a href="#tecnologias">Tecnologias Utilizadas</a> •
- <a href="#documentacao">Documentação</a> • 
+ <a href="#tecnologias">Tecnologias Utilizadas</a> • 
  <a href="#execucao">Como Executar</a> • 
+ <a href="#documentacao">Documentação</a> • 
+ <a href="#construcao">Em Construção</a> •
  <a href="#licenca">Licença</a> •
  <a href="#autor">Autor</a> •
  <a href="#contato">Contato</a> 
@@ -23,32 +26,52 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<p align="justify"> O Calculate NPS é uma aplicação Back-end que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS. </p>
+<p align="justify"> Esse projeto se baseia na técnica de pomodoro, onde a técnica consiste na utilização de um cronometro para dividir o tempo em períodos de 25 minutos de produção, que são separados por breves intervalos, mas o que difere esta aplicação sobre a técnica original, é que trocamos os intervalos e no lugar substituímos por desafios aleatórias que beneficiam a saúde do usuário. </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
-<p align="justify"> Este projeto foi desenvolvido utilizando as seguintes tecnologias: </p>
+<p align="justify"> Este projeto foi desenvolvido utilizando as seguintes linguagens: </p>
 
-<ul>
-    <li> <a href="https://nodejs.org/en/">NodeJS</a> </li>
-    <li> <a href="https://expressjs.com/pt-br/">Express</a> </li>
-    <li> <a href="https://typeorm.io/#/">TypeORM</a> </li>
-    <li> <a href="https://www.npmjs.com/package/sqlite3">SQLite3</a> </li>
-    <li> <a href="https://www.npmjs.com/package/uuid">uuid</a> </li>
-    <li> <a href="https://insomnia.rest/">Insomnia</a> </li>
-    <li> <a href="https://www.beekeeperstudio.io/">SQL Editor Beekeeper Studio</a> </li>
-    <li> <a href="https://ethereal.email/">Ethereal-Email</a> </li>
-    <li> <a href="https://nodemailer.com/about/">Nodemailer</a> </li>
-    <li> <a href="https://www.npmjs.com/package/reflect-metadata">Reflect-metadata</a> </li>
-    <li> <a href="https://handlebarsjs.com/">Handlebars</a> </li>
-    <li> <a href="https://www.npmjs.com/package/express-async-errors">ExpressJS Async Errors</a> </li>
-</ul>
-<p align="justify">Ferramentas utilziadas para os Testes Automatizados: </p>
+<img align="left" alt="Bootstrap" width="36px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"/>
 
-<ul>
-    <li> <a href="https://jestjs.io/">Jest</a> </li>
-    <li> <a href="https://www.npmjs.com/package/supertest">SuperTest</a> </li>
-</ul>
+<img align="left" alt="HTML5" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/>
+
+<img align="left" alt="CSS3" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/>
+
+</br>
+
+## :runner: <strong id="execucao"> Como executar o projeto </strong>
+
+[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.5-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable) [![NPM Badge](https://img.shields.io/badge/npm-6.14.11-brightgreen)](https://nodejs.org/en/download/)
+
+```bash
+# Fazer o clone do Repositorio.
+>> Git Clone: https://github.com/WD-GabrielKenji/NLW4-TrilhaDeReact.git
+```
+
+```bash
+# Se utiliza YARN como ferramenta para auxiliar as instalações dos pacotes dentro do Node.js, executar os procedimentos abaixo:
+
+# Instalar as dependencias do yarn: 
+>> yarn install
+
+# Iniciar o servidor via yarn:
+>> yarn dev
+```
+
+```bash
+# Se utiliza NPM como ferramenta para auxiliar as instalações dos pacotes dentro do Node.js, executar os procedimentos abaixo:
+
+# Instalar as dependencias do npm:
+>> npm install
+
+# Iniciar o servidor via npm:
+>> npm run dev
+```
+
+<pre>
+Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localhost:3000</code></a> no seu Browser e usufruir da aplicação!
+</pre>
 
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
@@ -60,101 +83,54 @@
 
 <br>
 
-<p align="justify"> Em Construção... </p>
+<p align="justify"> Esta aplicação foi desenvolvida, através de um <strong>evento online</strong> feito pela <strong>Rocketseat</strong>, chamado de <strong> NLW (Next Level Week)</strong>. A quarta edição do NLW na <strong>trilha de React</strong>, desenvolvemos a aplicação que teve como nome inicial, chamado de <strong>“move.it"</strong>. Ideia desse projeto se baseia na técnica de pomodoro criado por Francesco Cirillo no final dos anos 1980, onde a técnica consiste na    <strong>utilização de um cronometro para dividir o trabalho em períodos de 25 minutos de produção, separados por breves intervalos, mas o diferencial sobre essa técnica é que em nossa aplicação trocamos os intervalos e no lugar substituímos por desafios aleatórias que beneficiam a saúde do usuário.</strong> </p>
 
-<p align="justify"> </p>
+<p align="justify"> Nela utilizamos o <strong>contexto de desenvolvimento de uma API REST</strong>, permitindo com que nossa aplicação tenha acessos a <strong>múltiplos clientes distintos</strong>, que possam utilizar, tanto dispositivos desktops, como dispositivos mobiles no mesmo servidor, onde devolve um response no formato JSON, de uma maneira que os dois compreendam para realizar a transformação da interface até a visualização do usuário. Utilizamos a <strong>biblioteca React</strong>, para além de ajudar o browser nas criações da interface, <strong>deixarmos a aplicação mais fluida ou flexível para consumir o HTML, CSS e JS</strong>, e como <strong>ambiente de desenvolvimento</strong> usamos o <strong>Node.js</strong> para construir a aplicação utilizando React. </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Adicionamos o TS (TypeScript) sobre o JS (JavaScript)</strong> para darmos uma tipagem estática, onde o que for atribuído a tipagem definida, necessita obrigatoriamente ser seguido ao formato descrito. <strong>Gerando assim, um alto desenvolvimento, pois não precisamos fazer testes de validações nas funções ou qualquer outra funcionabilidade tipada presente nos códigos, resultando em uma checagem estática de tipos (checagem durante o desenvolvimento da aplicação).</strong> </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Dividimos a aplicação em componentes</strong> para deixa-la mais legível, na forma do reaproveitamento de código, onde no React tudo é feito através de componentes. Também utilizamos para escrever trechos em HTML dentro do JS, através de uma função. </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Ferramentas utilizadas para auxiliar as instalações dos pacotes</strong> dentro do Node.js foram o <strong>yarn</strong> e <strong>npm</strong>. </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Inicialmente dentro da aplicação</strong>, foi instalado o <strong>pacote create-react-app</strong>, que gera a facilitação para a criação de projetos React, onde o browser não consegue compreender a linguagem mais recente do JS moderno, e <strong>adicionando este pacote com suas configurações, podemos converter os códigos para uma maneira que o browser consiga compreende-los</strong>.  </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Quando se cria uma aplicação utilizando o “create-react-app”, estamos utilizando uma aplicação com o conceito SPA (Single Page Application)</strong>, que consiste em uma aplicação de uma única página, onde a troca de rotas ocasiona na troca do conteúdo, mas não da página ao todo. <strong>O porem da utilização deste conceito</strong>, é que sites que precisam ser indexados nos motores de busca <strong>apresentam o problema de SEO (Search Engine Optimization), gerando assim problemas com a otimização com os motores de busca ou buscadores, pois alguns deles estão com o JavaScript desabilitado e outros não esperam o tempo da interface ser construída</strong>. No que ocasiona, em não conseguirem coletar informações das aplicações, onde o JS é base tudo da aplicação (principalmente para projetos que utiliza a biblioteca React) ou onde o tempo de espera é atingido. </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>Para resolver o problema do conceito SPA na otimização com os motores de busca, migramos nossa aplicação, para o conceito SSR (Server Side Rendering)</strong>, permitindo que nossa aplicação seja indexada no motores de busca, nesse caso <strong>incrementamos o framework Next.js</strong> fazendo com que o usuário não acesse a aplicação diretamente pelo front-end, mas sim através de uma camada intermediário do Next.js, onde sua <strong>responsabilidade é ir até o armazenamento interno do browser, buscar os dados e informações da aplicação presentes nos Cookies</strong> e quando obtiver os dados, enviar para o Front-end (React) o HTML e CSS prontos para a exibição da tela requisitada pelo usuário. </p>
 
-<p align="justify"> </p>
+<p align="justify"> Por ser uma aplicação Front-end, <strong>optamos por armazenar os dados da aplicação direto no armazenamento interno do browser</strong>, pois se os dados forem salvos nos <strong>Cookies</strong>, damos a todas as camadas da aplicação acesso os dados presentes nele. Para isso, baixamos a <strong>biblioteca “js-cookie”</strong> que faz o importe de uma API que facilita a busca e escrita dos dados dentro dos Cookies, adicionamos um <strong>repositório terceiro</strong> contendo as tipagens necessárias para que na biblioteca do “js-cookie” apresente os métodos sobre ela e para fazer a coleta dos dados de dentro do Cookie, utilizamos uma <strong>funcionabilidade do Next.js chamada de “getServerSideProps”</strong>. </p>
 
-<p align="justify"> </p>
+<p align="justify"> Não podemos fazer uma chamada de API de dentro do componente, pois os dados não estarão presentes quando os motores de busca acessarem a aplicação, por causa que eles não aguardar a chamada ser finaliza, onde o Next.js não realiza a chamada antes de ter primeiro a interface pronta. Então, o <strong>“getServerSideProps”</strong> funciona somente nas páginas da aplicação e faz uma chamada a API, que busca alguns dados para serem preenchidos na interface e antes de finalizar a interface, irá fazer a chamada da API, repassar para o componente os dados já prontos, para depois o componente mostra os dados em tela. </p>
 
-<p align="justify"> </p>
+<p align="justify"> Fazemos a <strong>comunicação entre os elementos/componentes</strong> da aplicação, <strong>utilizamos o Context API (API de Contexto do React)</strong>. Adicionamos também um <strong>sistema de notificações com áudio e lembrete</strong>, para que quando o cronometro zerar e estiver inicializado o desafio, o usuário seja notificado. </p>
 
-<p align="justify"> </p>
+<p align="justify"> <strong>O deploy</strong> foi feito da maneira mais pratica, onde utilizamos um serviço de deploy especializados para aplicações Front-end, chamado <strong>“Vercel”</strong> e seguimos a seguintes etapas para concluir o deploy: </p>
+
+```bash
+# Crie uma conta no site da Vercel:
+>> https://vercel.com/
+
+# Baixar o CLI Vercel pelo npm na aplicação:
+>> npm i -g vercel
+
+# Verificar se está disponivel o CLI Vercel:
+>> vercel -h
+
+# Fazendo o login (Siga os passos apresentados):
+>> vercel login
+
+# Preparando o deploy da aplicação (Responda e siga os passos apresentados):
+>> vercel
+```
 
 </details>
-
-## :runner: <strong id="execucao"> Como executar o projeto </strong>
-
-[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.5-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-
-```bash
-# Fazer o clone do Repositorio.
->> Git Clone: https://github.com/WD-GabrielKenji/NLW4-TrilhaDeNodeJS.git
-```
-
-```bash
-# Instalar as dependencias com yarn: 
->> yarn install
-
-# Criar uma Migration:
->> yarn typeorm migration:run
-
-# Iniciar o servidor via yarn:
->> yarn dev 
-```
-
-<p align="justify"> Utilizando API Insomnia: </p>
-
-<pre># Crie um <strong>New Folder chamado "Users"</strong> -> Dentro dele crie um <strong>New Request chamado "Create"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
-<details>
-<summary>Users</summary>
-# Utilizando a rota: <code>[http://localhost:3333/users]</code> insira sobre o Body:
-<code>{
-   "name": "Nome Exemplo",
-   "email": "exemplo@exemplo.com.br"
-}</code>
-</details></pre>
-
-<pre># Crie um <strong>New Folder chamado "Surveys"</strong> -> Dentro dele crie um <strong>New Request chamado "Create"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
-<details>
-<summary>Surveys</summary>
-# Utilizando a rota: <code>[http://localhost:3333/surveys]</code> insira sobre o Body:
-<code>{
-   "title": "Queremos ouvir sua opinião!",
-   "description": "De 0  a 10, quanto você recomendaria a Rocketseat?"
-}</code>
-</details></pre>
-
-<pre># Crie um <strong>New Folder chamado "SendMail"</strong> -> Dentro dele crie um <strong>New Request chamado "Send"</strong> utilizando o <strong>método POST</strong> e no <strong>formato JSON</strong>:
-<details>
-<summary>SendMail</summary>
-# Utilizando a rota: <code>[http://localhost:3333/sendMail]</code> insira sobre o Body:
-<code>{
-   "email": "exemplo@exemplo.com.br",
-   "survey_id": "ID Survey"
-}</code>
-</details></pre>
-
-<pre># GET NPS:
-<details>
-<summary>NPS</summary>
-# Crie um <strong>New Folder chamado "NPS"</strong> -> Dentro dele crie um <strong>New Request chamado "CalculateNps"</strong> utilizando o <strong>método GET</strong>:
-# Utilizando a <strong>URL: <code>[http://localhost:3333/nps/IdSurveyQueQuer]</code></strong> -> <strong>Faça um Send</strong> sobre o Request e <strong>verifique as informações buscadas</strong>.
-</details></pre>
-
-<pre>
-# Visualize os dados e as tabelas utilziando o Beekeeper! 
-</pre>
-
 
 ## :closed_book: <strong id="licenca"> Licença </strong>
 
 <img alt="GitHub" src="https://img.shields.io/github/license/facebook/react"/>
 
-Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## :boy: <strong id="autor"> Autor </strong>
 
