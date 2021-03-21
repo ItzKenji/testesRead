@@ -26,7 +26,7 @@
 
 * Escola Tomorrowland
   
-<a href="https://youtu.be/tvA_nazsyR8"><img align="center" src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="930" height="500"/></a>
+<a href="https://youtu.be/tvA_nazsyR8"><img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="auto" height="auto"/></a>
 
 <p align="justify">  </p>
 
@@ -44,8 +44,8 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-<h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="630" height="500"/>
+<h1 align="left">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="auto" height="auto"/>
 </h1>
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
