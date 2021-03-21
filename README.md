@@ -24,7 +24,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-![Video EscolaTomorowland](https://giphy.com/gifs/yFhwYFsIbU59zXiIFD/html5)
+![Video EscolaTomorowland](https://gph.is/g/ZWPw9vJ)
 
 <p align="justify">  </p>
 
