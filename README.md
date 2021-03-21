@@ -40,13 +40,7 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-<pre>
-
-<a href="https://youtu.be/tvA_nazsyR8
-" target="_blank"><img src="https://youtu.be/tvA_nazsyR8" 
-alt="Escola Tomorrowland" width="240" height="180" border="10" /></a>
-
-</pre>
+[![](http://img.youtube.com/vi/tvA_nazsyR8/0.jpg)](http://www.youtube.com/watch?v=tvA_nazsyR8 "Escola Tomorroland")
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
 
