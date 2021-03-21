@@ -32,7 +32,7 @@
 
 <p align="justify"> Esta aplicação consistiu em desenvolver um site escolar, contendo cinco temas diferentes de cursos e todos os textos descritos foram produzidos através de livros escolares antigos que eu já continha. </p>
 
-* <a href="https://tomorrowland.vercel.app/">Acesse a aplicação aqui </a>
+* <a href="https://tomorrowland.vercel.app/" target="_blank">Acesse a aplicação aqui </a>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
