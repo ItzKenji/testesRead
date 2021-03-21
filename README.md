@@ -32,7 +32,7 @@
   
 <p align="justify"> A Escola Tomorrowland foi umas das primeiras aplicações que desenvolvi no período de Desenvolvimento Web na faculdade, onde foi aplicado a utilização do conceito de SPA (Single Page Aplicativo), utilizamos também as linguagens HTML5 e CSS e o framework Boostrap, para deixarmos a pagina mais responsiva a proporções diferentes de tela. </p>
 
-<p align="justify"> Essa aplicação consistia em desenvolver um site escolar, contendo cinco temas diferentes de cursos. Todos os textos descritos foram produzidos através de livros escolares antigos que eu continha. </p>
+<p align="justify"> Esta aplicação consistiu em desenvolver um site escolar, contendo cinco temas diferentes de cursos e todos os textos descritos foram produzidos através de livros escolares antigos que eu já continha. </p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
@@ -74,6 +74,9 @@
 <br>
 
 <p align="justify"> </p>
+
+<p align="justify"> </p>
+
 
 ```bash
 # BONUS: Caso queira fazer o deploy desta aplicação utilizando o Vercel!
