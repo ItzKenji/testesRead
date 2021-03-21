@@ -32,11 +32,13 @@
 
 <p align="justify"> Esta aplicação consistiu em desenvolver um site escolar, contendo cinco temas diferentes de cursos e todos os textos descritos foram produzidos através de livros escolares antigos que eu já continha. </p>
 
-<a href="https://tomorrowland.vercel.app/" align="right">Acesse a aplicação aqui </a>
+<div align="right">
+<a href="https://tomorrowland.vercel.app/">Acesse a aplicação aqui </a>
+</div>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
-<p align="justify"> Este projeto foi desenvolvido utilizando as seguintes linguagens: </p>
+<p align="justify"> Este projeto foi desenvolvido utilizando as seguintes tecnologias: </p>
 
 <img align="left" alt="HTML5" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/>
 
@@ -47,6 +49,11 @@
 </br>
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
+
+```bash
+#Para fazer o clone desta aplicação:
+>> git clone: 
+```
 
 <p align="justify"> Para executar a aplicação, siga os seguintes passos: </p>
 
@@ -73,9 +80,9 @@
 
 <br>
 
-<p align="justify"> </p>
+<p align="justify"> Por ser uma aplicação simples utilizamos o conceito SPA (Single Page Aplicativo), onde a necessidade só era criar uma única página, que apresentaria os textos e os conteúdos presentes nela. </p>
 
-<p align="justify"> </p>
+<p align="justify"> Utilizei a linguagem HTML5 para fazer o layout da página. Para deixa-la responsiva utilizei o grid system do Bootstrap e junto com suas classes pré-definidas e com o auxílio do CSS estilizei o visual da pagina escolar.  </p>
 
 
 ```bash
