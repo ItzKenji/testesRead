@@ -34,7 +34,7 @@
 
 <p align="justify"> Este projeto foi desenvolvido utilizando as seguintes linguagens: </p>
 
-<img align="left" alt="Bootstrap" width="36px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"/>
+<img align="center" alt="Bootstrap" width="36px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"/>
 
 <img align="left" alt="HTML5" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/>
 
@@ -44,7 +44,7 @@
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-<h1 align="left">
+<h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://i.imgur.com/uStux62.png" width="630" height="500"/>
 </h1>
 
