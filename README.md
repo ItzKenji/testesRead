@@ -26,7 +26,7 @@
 
 * Escola Tomorrowland
   
-<a align="center" href="https://youtu.be/tvA_nazsyR8"><img src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="630" height="500"/></a>
+<a href="https://youtu.be/tvA_nazsyR8"><img align="center" src="https://media.giphy.com/media/yFhwYFsIbU59zXiIFD/giphy.gif" width="630" height="500"/></a>
 
 <p align="justify">  </p>
 
