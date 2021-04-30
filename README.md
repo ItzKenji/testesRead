@@ -28,9 +28,9 @@
 
 <p align="justify">Podcastr é um app voltado à exibição e reprodução de novos e antigos episódios podcast. Permitindo que o usuário tenho um acesso único a listagem dos conteúdos do podcast, através desse Web site.</p>
 
-<p align="justify">Essa aplicação Podcastr foi desenvolvida, através do evento NLW#5 na Trilha de ReactJS, oferecida pela empresa Rocketseat e mentoreada pelo Diego Fernandes.</p>
-
 <p align="justify"> Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate">desse link</a>. É necessário ter conta no <a href="https://www.figma.com/">Figma</a> para acessá-lo </p>
+
+<p align="justify">Essa aplicação Podcastr foi desenvolvida, através do evento NLW#5 na Trilha de ReactJS, oferecida pela empresa Rocketseat e mentoreada pelo Diego Fernandes.</p>
 
 <span> #missaoespacial | #embuscadoproximonivel | #astronautas | #universoinfinito | #missaocumprida </span>
 
@@ -89,13 +89,13 @@ Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localho
 
 <br>
 
-<h2><strong></strong></h2>
+<h2><strong>Conceitos e Praticas utilizadas:</strong></h2>
 
 <p align="justify">Utilizamos os conceitos do React de Componentes, Fragment, Propriedades e Estados na criação e comunicação de informações em eles.</p>
 
 <p align="justify">TypeScript serve para utilizar uma linguagem de tipagem, dando um formato ou parâmetros aos dados que estão sendo recebidos, ou seja, podemos assim saber os dados presentes dentro de uma variável ou os dados que uma função necessita receber, o que facilitaria o entendimento e principalmente na necessidade de uma manutenção do código.</p>
 
-<p align="justify">Utilizamos o framework NextJS que é um framework por cima do React que diminuirá as responsabilidades do Back-end e ajudará na criação da aplicação com o conceito SSG (Static Site Generation), fazendo o fluxo de forma totalmente automatizada, onde determinamos um tempo para ela seja atualizada e após esse tempo o NextJS irá recarrega-la com o novo conteúdo.</p>
+<p align="justify">O framework NextJS que é um framework por cima do React irá diminuir as responsabilidades do Back-end e ajudará na criação das interfaces da aplicação com o conceito SSG (Static Site Generation), fazendo o fluxo de forma totalmente automatizada, onde determinamos um tempo para ela seja atualizada e após esse tempo o NextJS irá recarrega-la com o novo conteúdo.</p>
 
 <p align="justify">Desenvolvemos para esta aplicação, o conceito de SSG, para que ela seja gerada de forma estática (SSG), trazendo assim, mais performance e uma melhor experiencia para o usuário.</p>
 
@@ -111,7 +111,7 @@ Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localho
 
 <p align="justify">A biblioteca Axios para fazer requisições HTTP, que traz algumas funcionabilidades, que são o entendimento pelo padrão do JSON e configuração de um baseURL (caminho URL padrão), assim só será necessário fazer a chamada da rota(s) com seu(s) parâmetro(s).</p>
 
-<h3>BÔNUS:</h3>
+<h2><strong>BÔNUS:</strong></h2>
 
 <p align="justify"> <strong>O deploy</strong> foi feito da maneira mais pratica, onde utilizamos um serviço de deploy especializados para aplicações Front-end, chamado <strong>“Vercel”</strong> e seguimos a seguintes etapas para concluir o deploy: </p>
 
@@ -159,7 +159,7 @@ Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mai
 </a>
 
 
-Feito de ❤️ por Gabriel Kenji 👋🏽
+Feito de ❤️ por Gabriel Kenji Poli Ozaki - Desenvolvedor Front-end 👋🏽
 
 ### :mailbox_with_mail: <strong id="contato"> Redes Sociais para Contato: </strong>
 
