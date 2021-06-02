@@ -20,7 +20,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="https://thumbs.gfycat.com/SoupyWastefulAmethystinepython-size_restricted.gif"  width="100%"></img>
+<img src="https://thumbs.gfycat.com/SoupyWastefulAmethystinepython-max-1mb.gif"  width="100%"></img>
 
 <p align="justify"><strong>Dt money</strong> é um app voltado ao <strong>controle financeiro</strong> permitindo que o usuário faça uma <strong>inserção</strong> de <strong>entrada</strong> ou <strong>saida</strong> de sua renda.</p>
 
