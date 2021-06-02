@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./src/assets/images/Banner.png" alt="Rocketshoes"/>
+   <img src="./src/assets/logo.svg" alt="Dt money" width="350"/>
 </p>
 
 <p align="center">
@@ -20,19 +20,17 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-![Homepage](./src/assets/images/Aplicacao.png)
-![Homepage](./src/assets/images/Aplicacao2.png)
+![HomePage](https://giphy.com/embed/kUTgEB5AC1AyF8S2aP)
 
-<p align="justify"><strong>Rocketshoes</strong> é um <strong>e-commerce</strong> voltado a venda de sneakers.
+<p align="justify"><strong>Dt money</strong> é um app voltado ao <strong>controle financeiro</strong> permitindo que o usuário faça uma <strong>inserção</strong> de <strong>entrada</strong> ou <strong>saida</strong> de sua renda.</p>
 
 ### :pushpin: Funcionabilidades
 
-- [x] Adicionar produtos no carrinho
-- [x] Remover produtos no carrinho
-- [x] Escolher quantidade do produto
-- [x] Verificar todos os produtos selecionados no carrinho
+- [x] Inserir uma entrada ou saida financeira
+- [x] Calcular o total entre as entradas e saidas inseridas
+- [x] Apresentar o extrato financeiro do usuário
 
-<p align="justify">Essa aplicação Rocketshoes foi desenvolvida como parte de um desafio do Bootcamp Ignite organizada pela empresa Rocketseat.</p>
+<p align="justify">Essa aplicação To.Do foi desenvolvida, através do Bootcamp Ignite organizada pela empresa Rocketseat e mentoreado pelo Diego Fernandes na trilha de ReactJS.</p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
@@ -42,8 +40,9 @@
 
 <ul>
   <li><a href="https://pt-br.reactjs.org/docs/hooks-intro.html" rel="nofollow">React Hooks</a></li>
-  <li><a href="https://fkhadra.github.io/react-toastify/introduction" rel="nofollow">React-toastify</a></li>
-  <li><a href="https://react-icons.github.io/react-icons/#/" rel="nofollow">React Icons</a></li>
+  <li><a href="https://miragejs.com/" rel="nofollow">MirageJS</a></li>
+  <li><a href="https://github.com/axios/axios" rel="nofollow">Axios</a></li>
+  <li><a href="https://polished.js.org/docs/" rel="nofollow">Polished</a></li>
 </ul>
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
@@ -52,24 +51,21 @@
 
 ```bash
 # Fazer o clone do Repositorio.
->> git clone https://github.com/WD-GabrielKenji/Ignite-Rocketshoes.git
+>> git clone https://github.com/WD-GabrielKenji/Application-Dtmoney.git
 ```
 
 ```bash
-# Necessario baixar as dependencias necessárias e iniciar o servidor de desenvolvimento e da API:
+# Necessario baixar as dependencias necessárias e iniciar o servidor de desenvolvimento:
 
 # Instalar as dependencias: 
 >> yarn
-
-# Iniciar a API Fake do JSON SERVER:
->> yarn server
 
 # Iniciar o servidor de desenvolvimento:
 >> yarn start
 ```
 
 <pre>
-Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localhost:3000</code></a> no Browser e usufruir da aplicação!
+Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localhost:3000</code></a> no seu Browser e usufruir da aplicação!
 </pre>
 
 ## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
@@ -78,8 +74,6 @@ Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localho
 <summary>
   Documentação com os detalhes do projeto...
 </summary>
-
-<br>
 
 <p align="justify"> *Em construção...* </p>
 
@@ -99,11 +93,12 @@ Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mai
  <sub><b>Gabriel Kenji Poli Ozaki</b></sub></a> <a href="https://github.com/WD-GabrielKenji" title="Perfil Github"> :star2: 
 </a>
 
+
 Feito de ❤️ por Gabriel Kenji Poli Ozaki - Desenvolvedor Front-end 👋🏽
 
 ### :mailbox_with_mail: <strong id="contato"> Redes Sociais para Contato: </strong>
 
-Entre em contato, atraves destas redes sociais:
+<p> Entre em contato, atraves destas redes sociais: </p>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel_Kenji_Poli_Ozaki-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wdkenji/)  [![Mail Badge](https://img.shields.io/badge/-@biel.kenjii-C63381?style=flat&labelColor=C63381&logo=instagram&logoColor=white)](https://www.instagram.com/biel.kenjii/)  [![Mail Badge](https://img.shields.io/badge/-g.kenjijss-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:g.kenjijss@gmail.com)
 
