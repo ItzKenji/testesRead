@@ -20,7 +20,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/kUTgEB5AC1AyF8S2aP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/css-html-reactjs-kUTgEB5AC1AyF8S2aP">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/kUTgEB5AC1AyF8S2aP" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 <p align="justify"><strong>Dt money</strong> é um app voltado ao <strong>controle financeiro</strong> permitindo que o usuário faça uma <strong>inserção</strong> de <strong>entrada</strong> ou <strong>saida</strong> de sua renda.</p>
 
