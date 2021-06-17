@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./src/assets/logo.svg" alt="Dt money" width="350"/>
+   <img src="./public/images/Banner.svg" alt="Dt money" width="280"/>
 </p>
 
 <p align="center">
@@ -20,29 +20,34 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="https://thumbs.gfycat.com/SoupyWastefulAmethystinepython-max-1mb.gif"  width="100%"></img>
+<img src="" width="100%"></img>
 
-<p align="justify"><strong>Dt money</strong> é um app voltado ao <strong>controle financeiro</strong> permitindo que o usuário faça uma <strong>inserção</strong> de <strong>entrada</strong> ou <strong>saida</strong> de sua renda.</p>
+<p align="justify"><strong>Ig.News</strong> é um app voltado ao <strong>consumo de Blog</strong> contendo Posts com conteúdos para assinantes e prévias para não assinantes, e utilizando Next.js com conceitos de SSG e SSR, gerando mais performance e indexação.<p>
 
 ### :pushpin: Funcionabilidades
 
-- [x] Inserir uma entrada ou saida financeira
-- [x] Calcular o total entre as entradas e saidas inseridas
-- [x] Apresentar o extrato financeiro do usuário
+- [x] Sistema de Login e autenticação atribuídos através da conta do usuário no Github
+- [x] Permite o usuário efetuar compra do plano de assinatura (anual ou mensal através do Stripe)
+- [x] Aplicação faz um autorreconhecimento no status de assinatura dos usuários
+- [x] Somente usuários contendo uma assinatura ativa poderão visualizar o conteúdo completo do Post
+- [x] Usuários com uma assinatura não ativa conseguirão visualizar uma prévia do conteúdo no Post
 
-<p align="justify">Essa aplicação To.Do foi desenvolvida, através do Bootcamp Ignite organizada pela empresa Rocketseat e mentoreado pelo Diego Fernandes na trilha de ReactJS.</p>
+### :triangular_ruler: Layout
+
+<p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/jo6h7zRqOZpnuVii0jqx8T/ig.news">desse link</a>. É necessário ter conta no <a href="https://www.figma.com/">Figma</a> para acessá-lo.</p>
+
+<p align="justify">Essa aplicação Ig.News foi desenvolvida, através do Bootcamp Ignite organizada pela empresa Rocketseat e mentoreado pelo Diego Fernandes na trilha de ReactJS.</p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
 <p align="justify"> Este projeto foi desenvolvido utilizando as seguintes tecnologias: </p>
 
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://reactjs.org/) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](https://www.typescriptlang.org/)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://reactjs.org/) [![Next JS](https://img.shields.io/badge/Nextjs-blueviolet.svg?style=for-the-badge&amp;logo=Next.js&amp;labelColor=000000&amp;logoWidth=20")](https://nextjs.org/) [![Stripe Badge](https://img.shields.io/badge/-Stripe-6666ff?style=for-the-badge&labelColor=black&logo=stripe&logoColor=6666ff)](https://stripe.com/br) [![FaunaDB Badge](https://img.shields.io/badge/-Faunadb-5900b3?style=for-the-badge&labelColor=black&logo=faunadb&logoColor=5900b3)](https://fauna.com/) [![Prismic CMS Badge](https://img.shields.io/badge/-Prismic-ffff00?style=for-the-badge&labelColor=black&logo=prismic&logoColor=ffff00)](https://prismic.io/) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](https://www.typescriptlang.org/) [![SCSS Badge](https://img.shields.io/badge/-SASS-ff3399?style=for-the-badge&labelColor=black&logo=sass&logoColor=ff3399)](https://sass-lang.com/)
 
 <ul>
-  <li><a href="https://pt-br.reactjs.org/docs/hooks-intro.html" rel="nofollow">React Hooks</a></li>
-  <li><a href="https://miragejs.com/" rel="nofollow">MirageJS</a></li>
   <li><a href="https://github.com/axios/axios" rel="nofollow">Axios</a></li>
-  <li><a href="https://polished.js.org/docs/" rel="nofollow">Polished</a></li>
+  <li><a href="https://next-auth.js.org/" rel="nofollow">Next-auth</a></li>
+  <li><a href="https://nextjs.org/docs/api-reference/next/router" rel="nofollow">Next/router</a></li>
 </ul>
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
@@ -51,17 +56,47 @@
 
 ```bash
 # Fazer o clone do Repositorio.
->> git clone https://github.com/WD-GabrielKenji/Application-Dtmoney.git
+>> git clone https://github.com/WD-GabrielKenji/Application-Ignews.git
+>> cd Application-Ignews >> code .
 ```
-
 ```bash
 # Necessario baixar as dependencias necessárias e iniciar o servidor de desenvolvimento:
 
-# Instalar as dependencias: 
+## Instalar as dependencias: 
 >> yarn
 
-# Iniciar o servidor de desenvolvimento:
->> yarn start
+## Iniciar o servidor de desenvolvimento:
+>> yarn dev
+```
+```bash
+# Criar um arquivo .env.local para armazenar as variaveis de ambiente e insira códigos necessários em cada uma delas:
+
+##Stripe:
+>> STRIPE_API_KEY=
+>> NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
+>> STRIPE_WEBHOOK_SECRET=
+>> STRIPE_SUCCESS_URL=
+>> STRIPE_CANCEL_URL=
+
+##Github:
+>> GITHUB_CLIENT_ID=
+>> GITHUB_CLIENT_SECRET=
+
+##FaunaDB:
+>> FAUNADB_KEY=
+
+##Prismic CMS:
+>> PRISMIC_ENDPOINT=
+>> PRISMIC_ACCESS_TOKEN=
+```
+```bash
+# Instalar a CLI do Stripe para verificar os eventos do webhook:
+
+## CLI Stripe: 
+>> https://stripe.com/docs/stripe-cli
+
+## Insira em seu Terminal:
+>> stripe listen --forward-to localhost:3000/api/webhooks 
 ```
 
 <pre>
