@@ -20,7 +20,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="" width="100%"></img>
+<video src="https://giant.gfycat.com/DaringScrawnyJay.mp4" width="100%"></video>
 
 <p align="justify"><strong>Ig.News</strong> é um app voltado ao <strong>consumo de Blog</strong> contendo Posts com conteúdos para assinantes e prévias para não assinantes, e utilizando Next.js com conceitos de SSG e SSR, gerando mais performance e indexação.<p>
 
@@ -88,6 +88,8 @@
 ##Prismic CMS:
 >> PRISMIC_ENDPOINT=
 >> PRISMIC_ACCESS_TOKEN=
+
+# Obs: Necessário reiniciar o servidor de desenvolvimento quanto terminar de inserir as variáveis de ambiente!
 ```
 ```bash
 # Instalar a CLI do Stripe para verificar os eventos do webhook:
