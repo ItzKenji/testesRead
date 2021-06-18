@@ -20,7 +20,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="https://giant.gfycat.com/DaringScrawnyJay.mp4" width="100%"></img>
+<img src="https://gfycat.com/ifr/DaringScrawnyJay" width="100%"></img>
 
 <p align="justify"><strong>Ig.News</strong> é um app voltado ao <strong>consumo de Blog</strong> contendo Posts com conteúdos para assinantes e prévias para não assinantes, e utilizando Next.js com conceitos de SSG e SSR, gerando mais performance e indexação.<p>
 
