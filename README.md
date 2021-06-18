@@ -20,7 +20,7 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="https://i.pinimg.com/564x/18/1d/49/181d496ae362780977ebf7a1f0e6249c.jpg" width="100%"></img>
+<img src="https://pin.it/2XWKVF3" width="100%"></img>
 
 <p align="justify"><strong>Ig.News</strong> é um app voltado ao <strong>consumo de Blog</strong> contendo Posts com conteúdos para assinantes e prévias para não assinantes, e utilizando Next.js com conceitos de SSG e SSR, gerando mais performance e indexação.<p>
 
