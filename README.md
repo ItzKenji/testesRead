@@ -34,6 +34,7 @@
 - [x] Aplicação faz um autorreconhecimento no status de assinatura dos usuários
 - [x] Somente usuários contendo uma assinatura ativa poderão visualizar o conteúdo completo do Post
 - [x] Usuários com uma assinatura não ativa conseguirão visualizar uma prévia do conteúdo no Post
+- [] TESTE
 
 ### :triangular_ruler: Layout
 
