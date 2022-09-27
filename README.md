@@ -2,7 +2,7 @@
    <img src="./public/images/Banner.svg" alt="Dt money" width="280"/>
 </p>
 
-<p align="center">
+<div align="center">
  <a href="#projeto">Projeto</a> •
  <a href="#tecnologias">Tecnologias Utilizadas</a> •
  <a href="#execucao">Como Executar</a> •
@@ -10,7 +10,7 @@
  <a href="#licenca">Licença</a> •
  <a href="#autor">Autor</a> •
  <a href="#contato">Contato</a> 
-</p>
+</div>
 
 --------------------------- 
 
