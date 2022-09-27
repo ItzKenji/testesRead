@@ -30,9 +30,9 @@
 ### :pushpin: Funcionabilidades
 
 - [x] Sistema de Login e autenticação atribuídos através da conta do usuário no Github
-- [x] Permite o usuário efetuar compra do plano de assinatura (anual ou mensal através do Stripe)
+   - [x] Permite o usuário efetuar compra do plano de assinatura (anual ou mensal através do Stripe)
 - [x] Aplicação faz um autorreconhecimento no status de assinatura dos usuários
-- [x] Somente usuários contendo uma assinatura ativa poderão visualizar o conteúdo completo do Post
+   - [x] Somente usuários contendo uma assinatura ativa poderão visualizar o conteúdo completo do Post
 - [x] Usuários com uma assinatura não ativa conseguirão visualizar uma prévia do conteúdo no Post
 - [] TESTE
 
