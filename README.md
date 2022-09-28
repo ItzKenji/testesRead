@@ -73,27 +73,15 @@
 >> yarn dev
 ```
 ```bash
-# Criar um arquivo .env.local para armazenar as variaveis de ambiente e insira códigos necessários em cada uma delas:
+# Para inserir os dados da aplicação:
 
-##Stripe:
->> STRIPE_API_KEY=
->> NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
->> STRIPE_WEBHOOK_SECRET=
->> STRIPE_SUCCESS_URL=
->> STRIPE_CANCEL_URL=
+## Configurar o Prismic:
+>> Seguir: https://imgur.com/gallery/ofP1r8M  
+## Definir a variável de ambiente do Prismic:
+>> Criar o arquivo: .env.local
+    >> PRISMIC_API_ENDPOINT=#Adicionar aqui o ENDPOINT
 
-##Github:
->> GITHUB_CLIENT_ID=
->> GITHUB_CLIENT_SECRET=
-
-##FaunaDB:
->> FAUNADB_KEY=
-
-##Prismic CMS:
->> PRISMIC_ENDPOINT=
->> PRISMIC_ACCESS_TOKEN=
-
-# Obs: Necessário reiniciar o servidor de desenvolvimento quanto terminar de inserir as variáveis de ambiente!
+# Reinicie o servidor de desenvolvimento quando terminar de inserir a variável de ambiente!
 ```
 ```bash
 # Instalar a CLI do Stripe para verificar os eventos do webhook:
