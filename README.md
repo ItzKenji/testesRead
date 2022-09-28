@@ -119,7 +119,7 @@ Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mai
 <a href="https://github.com/WD-GabrielKenji">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/77596710?s=400&u=70de2ffcac45b9e0db00c828fe785d4a76ac3f65&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Gabriel Kenji Poli Ozaki</b></sub></a> <a href="https://github.com/WD-GabrielKenji" title="Perfil Github"> :star2: 
+ <sub><b>Gabriel Kenji Poli Ozaki</b></sub></a> <a href="https://github.com/WD-GabrielKenji" title="Perfil Github"> :heavy_check_mark: :star2: 
 </a>
 
 
